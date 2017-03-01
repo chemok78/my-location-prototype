@@ -9,6 +9,9 @@ import {AppRegistry, View, StyleSheet, Text, TabBarIOS} from 'react-native';
 //Import StyleSheet
 import Style from './style.js';
 
+//Import Map components
+import Map from './map.js';
+
 class MyLocation extends Component {
 
   constructor(props){
@@ -43,7 +46,7 @@ class MyLocation extends Component {
           >
               <View style={styles.view}>
                 <Text style={styles.text}>Find People Doing The Same Thing</Text>
-                <Text style={styles.text}>Show a map here</Text>
+                <Map />
               </View>
           </TabBarIOS.Item>
 
