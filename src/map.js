@@ -26,6 +26,15 @@ export default class Map extends Component {
           longitudeDelta: 0.8,
           title: "Me"
         }}
+        annotations={[{
+            title:"me",
+            subtitle: "my current location",
+            latitude: 22.2978835,
+            longitude: 114.1761721,
+            animateDrop: true,
+            draggable: true
+        }
+        ]}
       />
 
     )
