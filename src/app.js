@@ -13,6 +13,7 @@ import Map from './map.js';
 //Import Form components
 import Form from './form.js';
 
+
 class MyLocation extends Component {
 
   constructor(props){
@@ -27,6 +28,7 @@ class MyLocation extends Component {
 
     };
 
+    // Bind function to the Class
     this.changeActivity = this.changeActivity.bind(this);
     this.changeGender = this.changeGender.bind(this);
 
@@ -78,7 +80,6 @@ class MyLocation extends Component {
             onPress={this.handleTabPress.bind(this,0)}
           >
               <View style={Style.mapContainer}>
-                <Text style={Style.mapTitle}>Find People Doing The Same Thing</Text>
                 <Map />
               </View>
           </TabBarIOS.Item>
