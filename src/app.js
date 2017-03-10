@@ -13,7 +13,6 @@ import Map from './map.js';
 //Import Form components
 import Form from './form.js';
 
-
 class MyLocation extends Component {
 
   constructor(props){
